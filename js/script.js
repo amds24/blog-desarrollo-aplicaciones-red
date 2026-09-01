@@ -1,14 +1,17 @@
 const boton = document.getElementById("modoOscuro");
 
-boton.addEventListener("click", function () {
-    document.body.classList.toggle("oscuro");
+if (boton) {
+    boton.addEventListener("click", function () {
+        document.body.classList.toggle("oscuro");
 
-    if (document.body.classList.contains("oscuro")) {
-        boton.textContent = "☀️ Modo claro";
-    } else {
-        boton.textContent = "🌙 Modo oscuro";
-    }
-});
+        if (document.body.classList.contains("oscuro")) {
+            boton.textContent = "☀️ Modo claro";
+        } else {
+            boton.textContent = "🌙 Modo oscuro";
+        }
+    });
+}
+
 const botonArriba = document.getElementById("volverArriba");
 
 if (botonArriba) {
