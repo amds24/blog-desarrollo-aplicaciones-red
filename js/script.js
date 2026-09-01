@@ -9,3 +9,13 @@ boton.addEventListener("click", function () {
         boton.textContent = "🌙 Modo oscuro";
     }
 });
+const botonArriba = document.getElementById("volverArriba");
+
+if (botonArriba) {
+    botonArriba.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+}
