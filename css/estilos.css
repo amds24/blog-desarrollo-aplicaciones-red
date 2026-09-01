@@ -70,12 +70,16 @@ article a:hover {
     background-color: #222;
     color: white;
 }
-.oscuro article {
-    background-color: #333;
-    color: white;
+
+body.oscuro article {
+    background: #333 !important;
+    color: white !important;
 }
 
 .oscuro article a {
+    background-color: #4a6780;
+    color: white;
+}
     background-color: #4a6780;
     color: white;
 }
