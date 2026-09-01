@@ -95,3 +95,8 @@ body.oscuro article {
 #modoOscuro:hover {
     background-color: #1a252f;
 }
+#bienvenida {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0;
+}
