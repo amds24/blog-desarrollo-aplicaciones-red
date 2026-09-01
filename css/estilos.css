@@ -44,6 +44,14 @@ article {
 article h3 {
   margin-top: 0;
 }
+article img {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+}
 
 article a {
   display: inline-block;
