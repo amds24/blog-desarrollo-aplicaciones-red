@@ -22,3 +22,10 @@ if (botonArriba) {
         });
     });
 }
+const bienvenida = document.getElementById("bienvenida");
+
+if (bienvenida) {
+    setTimeout(function () {
+        bienvenida.style.display = "none";
+    }, 4000);
+}
