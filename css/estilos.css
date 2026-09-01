@@ -66,3 +66,7 @@ article a {
 article a:hover {
   background-color: #1a252f;
 }
+.oscuro {
+    background-color: #222;
+    color: white;
+}
